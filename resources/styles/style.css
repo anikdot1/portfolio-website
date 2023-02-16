@@ -172,6 +172,7 @@ main {
     color: #757575;
 }
 
+/* resume section styles */
 .resume {
     margin-top: 130px;
 }
@@ -209,4 +210,60 @@ main {
     font-size: 16px;
     color: #757575;
     padding-bottom: 30px;
+}
+
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* footer styles */
+.contact {
+    width: 1600px;
+    display: flex;
+    gap: 118px;
+    background: #FFF8F3;
+    margin: 112px auto 0px auto;
+}
+
+.footer-left {
+    margin: 130px 0px 130px 230px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    padding-bottom: 30px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+
+.social {
+    padding-right: 24px;
+}
+
+.footer-right {
+    margin: 130px 230px 130px 0px;
+}
+
+#input, textarea {
+    margin-bottom: 24px;
+    padding-left: 20px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    color: #757575;
+}
+
+textarea {
+    padding-top: 20px;
+}
+#input {
+    height: 64px;
 }
